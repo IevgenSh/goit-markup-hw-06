@@ -688,6 +688,68 @@ img {
   background-color: var(--primery-white-color);
 }
 
+.modal-title {
+  margin: 0px 0px 10px 0px;
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-right: 42px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+
+  color: #212121;
+}
+
+.modal-field {
+  padding-left: 39px;
+  padding-right: 41px;
+}
+
+.username {
+  position: relative;
+
+  width: 448px;
+  height: 58px;
+
+  border: 1px solid red;
+}
+
+.form-label {
+  display: flex;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+
+  margin-bottom: 4px;
+}
+
+.form-input {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  transition: 250ms var(--timing-function);
+}
+
+.form-input:hover,
+.form-input:focus {
+  border-color: var(--accent-color);
+}
+
+.username-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
 /* Portfolio.html */
 
 .projects {
