@@ -595,10 +595,13 @@ img {
   color: var(--primery-white-color);
 }
 
-.footer-form-label {
+.footer-form-block {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer-form-label {
 }
 
 .footer-form input {
